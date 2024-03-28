@@ -1,25 +1,85 @@
 # Git commands instruction
-## **1. Set user name and email:**
+
+- [git youtube course](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
+
+- [git reference manual](https://git-scm.com/docs)
+
+## **1. Set user configurations:**
 > git config
 
-- `git config --global user.name *<put_your_name>*`
+![git config hierarchy](git_config.png)
 
-- `git config --global user.email *<put_your_email>*`
+- set username/email for local project:
+
+`git config --local user.name <put_your_name>/<put_your_email>`
+
+- set global username/email for all projects of current user:
+
+`git config --global user.name <put_your_name>/<put_your_email>` 
+
+- set system username/email for all users:
+
+`git config --system user.name <put_your_name>/<put_your_email>`
+
+- show git configurations:
+
+`git config --list`
+
+- remove local parametres:
+
+`git config --unset <user.name> or <user.email>`
+
+- remove section user:
+
+`git config --remove-section user`
+
 
 ## **2. Initialize git repository:**
 > git init
 
 - `git init`
 
+create .gitingore + initial commit
+
 ## **3. Add changes from Working Directory to Index**
 > git add
 
-- `git add  *<file_name>*` [add just given change/changes]
+![git workspaces](git_workspaces.png)
 
-- `git add .` [add all changes]
+- add just given change/changes to Index:
 
-- `git add -p *<file_name>*` [add just given changes from one file]
+`git add  *<file_name>*`
+
+- add all changes from Working Directory:
+
+`git add .`
+
+- show commit information:
+
+`git show <commit_tag> --pretty=fuller`
+
+- add just choosen changes/change form file:
+
+`git add -p *<file_name>*`
+
+- remove changes from Index:
+
+`git reset HEAD <file_name>`
 
 ## **4. Add changes from Index to Repository**
 > git commit
 
+- `git commit -m <commit_message>`
+
+## **5. Show information**
+- **Show Working directory and Index status:**
+
+`git status`
+
+- **Show commits history:**
+
+`git log`
+
+## **6. Chekcout to another commit or branch**
+> git checkout 
+- `git checkout <branch_name>/<commit_tag>`
