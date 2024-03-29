@@ -73,7 +73,17 @@ don't forget to create .gitingore + do initial commit!
 
 > ## **4. Add changes from Index to Repository: git commit**
 
-- `git commit -m <commit_message>`
+- commit all changes form Index to Repository:
+
+`git commit -m <commit_message>`
+
+- commit all changes from Workong Directory to Repository (only if files are already been in Index!):
+
+`git commit -a`
+
+- commit change/changes from Workong Directory to Repository (only if files are already been in Index!):
+
+` git commit -m <commit_message> <file(s) path>`
 
 > ## **5. Usefull commands to show information**
 - **Show Working Directory and Index status:**
