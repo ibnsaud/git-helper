@@ -137,7 +137,31 @@ git status
 git log
 ```
 
+```sh
+git log --oneline 
+```
+shori version
+
 > ## **6. Checkout to another commit or branch: git checkout**
 ```sh
 git checkout <branch_name>/<commit_tag>
+```
+
+> ## **7. Branches**
+- create new branch
+```sh
+git branch <branch_name>
+```
+- create and checkout to new branch
+```sh
+git checkout -b <branch_name>
+```
+- merge branches
+```sh
+git checkout <destination_branch_name>
+git merge <branch_to_merge_name>
+```
+- delete branch
+```sh
+git branch -d <branch_name>
 ```
