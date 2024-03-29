@@ -6,7 +6,7 @@
 
 > ## **1. Set user configurations: git config**
 
-![git config hierarchy](git_config.png)
+![git config hierarchy](src\git_config.png)
 
 - set username/email for local project:
 
@@ -41,7 +41,7 @@ don't forget to create .gitingore + do initial commit!
 
 > ## **3. Add changes from Working Directory to Index: git add**
 
-![git workspaces](git_workspaces.png)
+![git workspaces](src\git_workspaces.png)
 
 - add just given change/changes to Index:
 
