@@ -67,12 +67,16 @@ don't forget to create .gitingore + do initial commit!
 
 `git reset HEAD <file_name>`
 
+- remove dir from Index, but still in Working Directory:
+
+`git rm -r --cashed <dir_name>`
+
 > ## **4. Add changes from Index to Repository: git commit**
 
 - `git commit -m <commit_message>`
 
-> ## **5. Show information**
-- **Show Working directory and Index status:**
+> ## **5. Usefull commands to show information**
+- **Show Working Directory and Index status:**
 
 `git status`
 
