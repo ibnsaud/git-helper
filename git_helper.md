@@ -45,11 +45,15 @@ don't forget to create .gitingore + do initial commit!
 
 - add just given change/changes to Index:
 
-`git add  *<file_name>*`
+`git add  <file_name>`
 
-- add all changes from Working Directory:
+- add all changes from current Working Directory:
 
 `git add .`
+
+- add all changeg from project source:
+
+`git add -A`
 
 - show commit information:
 
@@ -57,7 +61,7 @@ don't forget to create .gitingore + do initial commit!
 
 - add just choosen changes/change form file:
 
-`git add -p *<file_name>*`
+`git add -p <file_name>`
 
 - remove changes from Index:
 
