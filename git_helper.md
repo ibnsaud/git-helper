@@ -132,15 +132,19 @@ git status
 ```
 
 - **Show commits history:**
-
+- commits history
 ```sh
 git log
 ```
-
+- short version of commits history
 ```sh
 git log --oneline 
 ```
-shori version
+- branches graph
+```sh
+git log --graph
+```
+
 
 > ## **6. Checkout to another commit or branch: git checkout**
 ```sh
