@@ -95,7 +95,7 @@ git reset HEAD <file_name>
 - remove dir from Index, but still in Working Directory:
 
 ```sh
-git rm -r --cashed <dir_name>
+git rm -r --cached <dir_name>
 ```
 
 > ## **4. Add changes from Index to Repository: git commit**
@@ -115,7 +115,7 @@ git commit -a
 - commit change/changes from Workong Directory to Repository (only if files are already been in Index!):
 
 ```sh
- git commit -m <commit_message> <file(s) path>
+ git commit -m <commit_message> <file(s)_path>
  ```
 
 > ## **5. Usefull commands to show information**
