@@ -4,8 +4,7 @@
 
 - [git reference manual](https://git-scm.com/docs)
 
-## **1. Set user configurations:**
-> git config
+> ## **1. Set user configurations: git config**
 
 ![git config hierarchy](git_config.png)
 
@@ -34,15 +33,13 @@
 `git config --remove-section user`
 
 
-## **2. Initialize git repository:**
-> git init
+> ## **2. Initialize git repository: git init**
 
 - `git init`
 
-create .gitingore + initial commit
+don't forget to create .gitingore + do initial commit!
 
-## **3. Add changes from Working Directory to Index**
-> git add
+> ## **3. Add changes from Working Directory to Index: git add**
 
 ![git workspaces](git_workspaces.png)
 
@@ -66,12 +63,11 @@ create .gitingore + initial commit
 
 `git reset HEAD <file_name>`
 
-## **4. Add changes from Index to Repository**
-> git commit
+> ## **4. Add changes from Index to Repository: git commit**
 
 - `git commit -m <commit_message>`
 
-## **5. Show information**
+> ## **5. Show information**
 - **Show Working directory and Index status:**
 
 `git status`
@@ -80,6 +76,5 @@ create .gitingore + initial commit
 
 `git log`
 
-## **6. Chekcout to another commit or branch**
-> git checkout 
+> ## **6. Chekcout to another commit or branch: git checkout**
 - `git checkout <branch_name>/<commit_tag>`
