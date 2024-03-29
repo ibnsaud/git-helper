@@ -137,7 +137,7 @@ git status
 git log
 ```
 
-> ## **6. Chekcout to another commit or branch: git checkout**
+> ## **6. Checkout to another commit or branch: git checkout**
 ```sh
 git checkout <branch_name>/<commit_tag>
 ```
