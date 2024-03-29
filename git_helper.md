@@ -92,6 +92,12 @@ git add -p <file_name>
 git reset HEAD <file_name>
 ```
 
+or
+
+```sh
+git restore --staged <file_name>
+```
+
 - remove dir from Index, but still in Working Directory:
 
 ```sh
