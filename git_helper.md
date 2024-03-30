@@ -8,41 +8,51 @@
 
 ![git config hierarchy](src\git_config.png)
 
-- set username/email for local project:
+- ### Basic operations
+
+*set username/email for local project:*
 
 ```sh
 git config --local user.name <put_your_name> <put_your_email>
 ```
 
-- set global username/email for all projects of current user:
+*set global username/email for all projects of current user:*
 
 ```sh
 git config --global user.name <put_your_name>/<put_your_email> 
 ```
-- set system username/email for all users:
+
+*set system username/email for all users:*
 
 ```sh
 git config --system user.name <put_your_name>/<put_your_email>
 ```
 
-- show git configurations:
 
-```sh
-git config --list
-```
-
-- remove local parametres:
+*remove local parametres:*
 
 ```sh
 git config --unset <user.name> or <user.email>
 ```
 
-- remove section user:
+*remove section user:*
 
 ```sh
 git config --remove-section user
 ```
+- ### Show info:
 
+*show all git configurations:*
+
+```sh
+git config --list
+```
+
+*show certaion git configurations, for example:*
+
+```sh
+git config user.name
+```
 
 > ## **2. Initialize git repository: git init**
 
