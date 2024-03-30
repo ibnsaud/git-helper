@@ -114,27 +114,31 @@ git add -p <file_name>
 git status
 ```
 
-> ## **4. Add changes from Index to Repository: git commit**
+> ## **4. Commit changes from Index to Repository: git commit**
 
-- commit all changes form Index to Repository:
+- ### Basic operations:
+
+*commit all changes form Index to Repository:*
 
 ```sh
 git commit -m <commit_message>
 ```
 
-- commit all changes from Workong Directory to Repository (only if files are already been in Index!):
+- ### Usefull flags:
+
+*commit all changes from Workong Directory to Repository (only if files are already been in Index!):*
 
 ```sh
-git commit -a
+git commit -a -m <commit_message>
 ```
 
-- commit change/changes from Workong Directory to Repository (only if files are already been in Index!):
+*commit changes from Workong Directory to Repository (only if files are already been in Index!):*
 
 ```sh
  git commit -m <commit_message> <file(s)_path>
  ```
 
-> ## **5. Usefull commands to show information**
+- ### Show commits information:
 
 *show commit information:*
 
@@ -142,20 +146,22 @@ git commit -a
 git show <commit_tag> --pretty=fuller
 ```
 
-- **Show commits history:**
-- commits history
+*commits history with all information:*
 ```sh
 git log
 ```
-- short version of commits history
+
+*short version of commits history:*
+
 ```sh
 git log --oneline 
 ```
-- branches graph
+
+*show branches graph:*
+
 ```sh
 git log --graph
 ```
-
 
 > ## **6. Checkout to another commit or branch: git checkout**
 ```sh
