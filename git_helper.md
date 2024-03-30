@@ -201,3 +201,5 @@ git merge <branch_to_merge>
 ![after_merge](src\after_merge.png)
 
 *3. merged brach can be deleted after merge.*
+
+test
