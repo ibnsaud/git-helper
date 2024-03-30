@@ -160,12 +160,13 @@ git branch <branch_name>
 ```sh
 git checkout -b <branch_name>
 ```
-- merge branches
-```sh
-git checkout <destination_branch_name>
-git merge <branch_to_merge_name>
-```
 - delete branch
 ```sh
 git branch -d <branch_name>
+```
+
+### Merge branches
+```sh
+git checkout <destination_branch_name>
+git merge <branch_to_merge_name>
 ```
