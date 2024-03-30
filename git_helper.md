@@ -202,6 +202,4 @@ git merge <branch_to_merge>
 
 *3. merged brach can be deleted after merge.*
 
-conflict
-
 test
