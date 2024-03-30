@@ -171,7 +171,7 @@ git log --graph
 
 > ## **7. Branches**
 
-- ### Basic operations
+- ### Basic operations:
 
 *create new branch:*
 ```sh
@@ -186,7 +186,7 @@ git checkout -b <branch_name>
 git branch -d <branch_name>
 ```
 
-- ### Merge branches
+- ### Merge branches:
 
 ![before_merge](src\before_merge.png)
 
