@@ -68,37 +68,21 @@ don't forget to create .gitingore + do initial commit!
 
 ![git workspaces](src\git_workspaces.png)
 
-- add just given change/changes to Index:
+- ### Basic operations:
+
+*add changed file to Index:*
 
 ```sh
 git add  <file_name>
 ```
 
-- add all changes from current Working Directory:
+*add all changes from current Working Directory:*
 
 ```sh
 git add .
 ```
 
-- add all changeg from project source:
-
-```sh
-git add -A
-```
-
-- show commit information:
-
-```sh
-git show <commit_tag> --pretty=fuller
-```
-
-- add just choosen changes/change form file:
-
-```sh
-git add -p <file_name>
-```
-
-- remove changes from Index:
+*remove changes from Index:*
 
 ```sh
 git reset HEAD <file_name>
@@ -110,10 +94,18 @@ or
 git restore --staged <file_name>
 ```
 
-- remove dir from Index, but still in Working Directory:
+- ### Usefull flags:
+
+*add all changes from project source:*
 
 ```sh
-git rm -r --cached <dir_name>
+git add -A
+```
+
+*add just choosen changes from file:*
+
+```sh
+git add -p <file_name>
 ```
 
 > ## **4. Add changes from Index to Repository: git commit**
@@ -141,6 +133,12 @@ git commit -a
 
 ```sh
 git status
+```
+
+*show commit information:*
+
+```sh
+git show <commit_tag> --pretty=fuller
 ```
 
 - **Show commits history:**
