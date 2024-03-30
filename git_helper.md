@@ -10,7 +10,7 @@
 
 ![git config hierarchy](src\git_config.png)
 
-- ### Basic operations
+- ### Basic operations:
 
 *set username/email for local project:*
 
