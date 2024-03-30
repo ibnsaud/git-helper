@@ -108,6 +108,12 @@ git add -A
 git add -p <file_name>
 ```
 
+- ### Show Working Directory and Index status:
+
+```sh
+git status
+```
+
 > ## **4. Add changes from Index to Repository: git commit**
 
 - commit all changes form Index to Repository:
@@ -129,11 +135,6 @@ git commit -a
  ```
 
 > ## **5. Usefull commands to show information**
-- **Show Working Directory and Index status:**
-
-```sh
-git status
-```
 
 *show commit information:*
 
