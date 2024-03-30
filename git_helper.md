@@ -152,21 +152,34 @@ git checkout <branch_name>/<commit_tag>
 ```
 
 > ## **7. Branches**
-- create new branch
+
+- ### Basic operations
+
+*create new branch:*
 ```sh
 git branch <branch_name>
 ```
-- create and checkout to new branch
+*create and checkout to new branch:*
 ```sh
 git checkout -b <branch_name>
 ```
-- delete branch
+*delete branch:*
 ```sh
 git branch -d <branch_name>
 ```
 
-### Merge branches
+- ### Merge branches
+
+![before_merge](src\before_merge.png)
+
+*1. checkout to branch (e.g. master):*
 ```sh
-git checkout <destination_branch_name>
-git merge <branch_to_merge_name>
+git checkout <destination_branch>
 ```
+*2. merge branches:* 
+```sh
+git merge <branch_to_merge>
+```
+![after_merge](src\after_merge.png)
+
+*3. merged brach can be deleted after merge.*
