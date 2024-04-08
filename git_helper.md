@@ -216,6 +216,11 @@ git clone <repo_url>
 git push
 ```
 
+*get remote changes to local repo*
+```sh
+git pull
+```
+
 *link your local repo with remote repo*
 ```sh
 git remote add origin <repo_url.git>
