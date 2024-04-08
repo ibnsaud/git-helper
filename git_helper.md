@@ -209,25 +209,25 @@ git merge <branch_to_merge>
 
 ![after_merge](src\after_merge.png)
 
-*3. merged brach can be deleted after merge.*
+*3. merged branch can be deleted after merge.*
 
 > ## **8. Remote repositories**
 
 - ### Link local and remote repos:
 
-*link your local repo with remote repo*
+*link your local repo with remote repo:*
 
 ```sh
 git remote add origin <repo_url.git>
 ```
 
-*rename local branch to main (github recommended)*
+*rename local branch to main (github recommended):*
 
 ```sh
 git branch -M main
 ```
 
-*send main branch to remote repo*
+*send main branch to remote repo:*
 
 ```sh
 git push -u origin main
@@ -235,39 +235,47 @@ git push -u origin main
 
 - ### Basic operations:
 
-*clone remote repo*
+*clone remote repo:*
 
 ```sh
 git clone <repo_url>
 ```
 
-*add local changes to remote repo*
+*add local changes to remote repo:*
 
 ```sh
 git push
 ```
 
-*get remote changes to local repo*
+*get remote changes to local repo:*
 
 ```sh
 git pull
 ```
 
-*push local branch to remote repo*
+*push local branch to remote repo:*
 
 ```sh
 git checkout <local_branch>
 git push --set-upstream origin <local_branch>
 ```
+- ### Conflicts:
 
-*pull remote changes with merging to your local repo*
+*pull remote changes with merging to your local repo:*
+
 ```sh
 git pull --rebase
 ```
 
+*after conflict is solve, finish rebase:*
+
+```sh
+git rebase --continue
+```
+
 - ### Show info:
 
-*show fetch and push*
+*show fetch and push:*
 
 ```sh
 git remote -v
