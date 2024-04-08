@@ -260,7 +260,10 @@ git checkout <local_branch>
 git push --set-upstream origin <local_branch>
 ```
 
-new commit from browser for conflict
+*pull remote changes with merging to your local repo*
+```sh
+git pull --rebase
+```
 
 - ### Show info:
 
