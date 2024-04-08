@@ -260,6 +260,8 @@ git checkout <local_branch>
 git push --set-upstream origin <local_branch>
 ```
 
+new commit from browser for conflict
+
 - ### Show info:
 
 *show fetch and push*
