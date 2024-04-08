@@ -153,6 +153,7 @@ git show <commit_tag> --pretty=fuller
 ```
 
 *commits history with all information:*
+
 ```sh
 git log
 ```
@@ -174,14 +175,18 @@ git log --graph
 - ### Basic operations:
 
 *create new branch:*
+
 ```sh
 git branch <branch_name>
 ```
 *create and checkout to new branch:*
+
 ```sh
 git checkout -b <branch_name>
+
 ```
 *delete branch:*
+
 ```sh
 git branch -d <branch_name>
 ```
