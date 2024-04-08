@@ -201,3 +201,22 @@ git merge <branch_to_merge>
 ![after_merge](src\after_merge.png)
 
 *3. merged brach can be deleted after merge.*
+
+> ## **8. Remote repositories**
+
+- ### Basic operations:
+
+*clone remote repo*
+```sh
+git clone <repo_url>
+```
+
+*add local changes to remote repo*
+```sh
+git push
+```
+
+*add remote repo link to local repo*
+```sh
+git remote add origin <repo_url.git>
+```
